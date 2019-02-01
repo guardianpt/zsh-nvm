@@ -69,6 +69,8 @@ _zsh_nvm_load() {
         ;;
     esac
   }
+
+  _zsh_nvm_auto_use
 }
 
 _zsh_nvm_lazy_load() {
